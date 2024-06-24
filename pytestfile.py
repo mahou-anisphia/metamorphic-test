@@ -86,8 +86,8 @@ def test_addition_of_duplicate_relationship():
     SO_odd, SO_even = split_and_sort(SI)
     FI = SI[:] + [5]
     FO_odd, FO_even = split_and_sort(FI)
-    assert FO_odd == SO_even
-    assert FO_even == SO_odd
+    assert FO_odd == SO_odd
+    assert FO_even == SO_even
 
 
 if __name__ == "__main__":
