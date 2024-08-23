@@ -4,8 +4,8 @@ import itertools
 operations = ['+', '-', '*', '/']
 
 # Define the values for A and B
-A_initial = 1  # You can change this value as needed
-B = 2  # You can change this value as needed
+A_initial = -4  # You can change this value as needed
+B = 5  # You can change this value as needed
 cnt = 0
 # Iterate through all combinations of operations
 for op1, op2, op3 in itertools.product(operations, repeat=3):
